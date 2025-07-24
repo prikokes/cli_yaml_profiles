@@ -1,16 +1,16 @@
 # CLI aplication for handling yaml profiles
 
-Author: Gosha Ivanov 
+**Author: Gosha Ivanov**
 
 You can download the binary file from the bin folder to use this application (it was created for Windows 11 operating system)
 Also you can build binary file using this commands (If you have Go installed on your computer): 
 
-For MacOS/Linux: 
+**For MacOS/Linux:**
 ```
 git clone https://github.com/prikokes/mws.git
 go build -o bin/mws cmd/mws/main.go
 ```
-For Windows: 
+**For Windows:**
 ```
 git clone https://github.com/prikokes/mws.git
 go build -o bin\mws.exe cmd/mws/main.go
@@ -38,7 +38,7 @@ You can list existing profiles:
 .\mws.exe profile list
 ```
 
-On MacOS/Linux you should use commands like this:
+**On MacOS/Linux you should use commands like this:**
 ```
 ./mws profile create --name=NAME --user=USER --project=PROJECT
 ./mws profile get --name=NAME
