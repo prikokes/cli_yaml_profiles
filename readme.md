@@ -42,6 +42,6 @@ On MacOS/Linux you should use commands like this:
 ```
 ./mws profile create --name=NAME --user=USER --project=PROJECT
 ./mws profile get --name=NAME
-./mws.exe profile delete --name=NAME
-./mws.exe profile list
+./mws profile delete --name=NAME
+./mws profile list
 ```
