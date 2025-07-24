@@ -25,15 +25,23 @@ You can create a profile:
 
 You can get information about existing profile: 
 ```
-.\mws profile get --name=NAME
+.\mws.exe profile get --name=NAME
 ```
 
 You can delete existing profile:
 ```
-.\mws profile delete --name=NAME
+.\mws.exe profile delete --name=NAME
 ```
 
 You can list existing profiles: 
 ```
-.\mws profile list
+.\mws.exe profile list
+```
+
+On MacOS/Linux you should use commands like this:
+```
+./mws profile create --name=NAME --user=USER --project=PROJECT
+./mws profile get --name=NAME
+./mws.exe profile delete --name=NAME
+./mws.exe profile list
 ```
